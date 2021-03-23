@@ -1,0 +1,6 @@
+server.port=8085
+
+
+
+zuul.routes.movie.path=/movie-api/**
+zuul.routes.movie.service-id=MOVIE-SERVICE

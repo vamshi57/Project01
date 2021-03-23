@@ -1,0 +1,30 @@
+
+spring:
+  application:
+    name: API-GATEWAY
+ 
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8084/eureka/
+   
+    instance:
+       hostname: localhost
+
+       
+
+    cloud:
+     gateway:
+      routes:
+        - id: MOVIE-SERVICE
+          uri: lb://MOVIE-SERVICE
+          predicates:
+            - Path=/movie/**
+             
+        - id: BOOKING-SERVICE
+          uri: http://BOOKING-SERVICE
+          predicates:
+            - Path=/booking/**
+       

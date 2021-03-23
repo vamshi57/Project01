@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;gateway/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;api-gateway&apos;&#x0D;&#x0A;- Destination element: &apos;gateway/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     application.yml&#x0D;&#x0A;     application.properties" description="Copy files" destination="=gateway/src\/main\/resources=/maven.pomderived=/true=/" element1="src/main/resources/application.yml" element2="src/main/resources/application.properties" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1616432424775" units="0" version="1.0"/>
+</session>

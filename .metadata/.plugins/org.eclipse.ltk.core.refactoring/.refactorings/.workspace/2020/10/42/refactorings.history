@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 14 resources" deleteContents="false" description="Delete 14 resources" element1="/microservice-demo" element10="/microservice-demo-eureka-server" element11="/microservice-demo-order" element12="/microservice-demo-turbine-server" element13="/microservice-demo-zuul-server" element14="/microservice-master_microservice-demo" element2="/microservice-demo_microservice-demo-catalog" element3="/microservice-demo_microservice-demo-customer" element4="/microservice-demo_microservice-demo-eureka-server" element5="/microservice-demo_microservice-demo-order" element6="/microservice-demo_microservice-demo-turbine-server" element7="/microservice-demo_microservice-demo-zuul-server" element8="/microservice-demo-catalog" element9="/microservice-demo-customer" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="14" stamp="1602435446456"/>
+</session>

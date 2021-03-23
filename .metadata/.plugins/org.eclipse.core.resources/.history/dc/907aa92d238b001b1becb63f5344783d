@@ -1,0 +1,22 @@
+
+
+spring: 
+  application:    name: BOOKING-SERVICE
+
+eureka:  client:    fetch-registry: true 
+    register-with-eureka: true 
+    service-url:      defaultZone: http://localhost:8761/eureka 
+  
+   
+ 
+ribbon:
+  eureka:
+    enabled: true   
+   
+   
+  instance:
+     hostname: localhost
+  #instance:   # instance-id: ${spring.application.name}:${random.value}   
+    
+   
+           

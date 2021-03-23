@@ -1,0 +1,13 @@
+package com.vamshi.repo;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Component;
+
+import com.vamshi.model.Employee;
+
+@Component
+public interface MongoRepo extends MongoRepository<Employee, Long> {
+	
+	
+
+}
